@@ -7,8 +7,7 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
 <img src="screenshots/1.png" alt="iPerf3 Server Map" width="400" />  <img src="screenshots/2.png" alt="iPerf3 Server Map" width="400" />
 
 - **Interactive Map & Testing**: Visualizes iPerf3 servers on a global map using Leaflet.js, allowing you to initiate speed tests directly from the map markers.
-- **Automatic Geocoding**: resolving server locations (City/Country) to coordinates using `geonamescache` (offline) and OpenStreetMap's Nominatim (online fallback).
-- **Smart Caching**: Caches geocoded locations locally to improve performance and respect API rate limits.
+- **Automatic Geocoding**: resolving server locations (City/Country) to coordinates using `geonamescache` (offline) and OpenStreetMap's Nominatim (online fallback)..
 - **Integrated Speed Tests**: Run `iperf3` commands directly from the web interface against any server on the map.
 
 ## Prerequisites
