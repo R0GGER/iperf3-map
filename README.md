@@ -1,4 +1,4 @@
-# IPERF3 MAP
+# iPERF3 MAP
 
 This project provides a web-based interactive map interface for visualizing and testing public iPerf3 servers. It automatically fetches a list of [public iperf3 servers](https://github.com/R0GGER/public-iperf3-servers), determines their geographic locations, and allows you to run iPerf3 speed tests directly from your browser.
 
@@ -19,7 +19,7 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/R0GGER/iPERF3-MAP.git
+   git clone https://github.com/R0GGER/iperf3-map.git
    cd iperf3-map
    ```
 
