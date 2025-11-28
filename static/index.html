@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPERF3 MAP - iperf3serverlist.net</title>
+    <link rel="icon" type="image/png" href="iperf3serverlist_256.png">
+    <link rel="apple-touch-icon" href="iperf3serverlist_256.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+    <div id="map-logo">
+        <img src="iperf3serverlist_256.png" alt="iPerf3 Server List Logo">
+        <div class="logo-text">
+            <div class="logo-title">iPERF3 MAP</div>
+            <div class="logo-subtitle">by iPERF3 SERVERLIST</div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+    
+    <div class="bottom-controls">
+        <button id="update-locations-btn" class="btn-floating" title="Update Locations">
+            <i class="fas fa-sync"></i>
+        </button>
+        <div class="footer-links">
+            <a href="https://github.com/R0GGER/public-iperf3-servers" target="_blank" class="footer-link">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://iperf3serverlist.net/" target="_blank" class="footer-link">
+                <i class="fas fa-globe"></i> iperf3serverlist.net
+            </a>
+        </div>
+    </div>
+
+    <div id="loading-status" style="position: absolute; top: 10px; right: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); display: none;">
+        Loading servers... <span id="server-count">0</span> found
+    </div>
+
+    <!-- Modal -->
+    <div id="testModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Run Speedtest</h2>
+            <div id="modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <script src="script.js?v=2"></script>
+</body>
+</html>
+

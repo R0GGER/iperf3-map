@@ -1,0 +1,374 @@
+{
+  "Accra, GH": {
+    "lat": 5.55602,
+    "lon": -0.1969
+  },
+  "Algiers, DZ": {
+    "lat": 36.73225,
+    "lon": 3.08746
+  },
+  "Amsterdam, NL": {
+    "lat": 52.37403,
+    "lon": 4.88969
+  },
+  "Arezzo, IT": {
+    "lat": 43.46276,
+    "lon": 11.88068
+  },
+  "Ashburn, US": {
+    "lat": 41.74753,
+    "lon": -87.71116
+  },
+  "Athens, GR": {
+    "lat": 37.98376,
+    "lon": 23.72784
+  },
+  "Atlanta, US": {
+    "lat": 33.749,
+    "lon": -84.38798
+  },
+  "Auckland, NZ": {
+    "lat": -36.84853,
+    "lon": 174.76349
+  },
+  "Banjul, GM": {
+    "lat": 13.45274,
+    "lon": -16.57803
+  },
+  "Bata, GQ": {
+    "lat": 1.86391,
+    "lon": 9.76582
+  },
+  "Belgrade, RS": {
+    "lat": 44.80401,
+    "lon": 20.46513
+  },
+  "Berlin, DE": {
+    "lat": 52.52437,
+    "lon": 13.41053
+  },
+  "Bissen, LU": {
+    "lat": 49.7891516,
+    "lon": 6.0662981
+  },
+  "Bogot\u00e1, CO": {
+    "lat": 4.60971,
+    "lon": -74.08175
+  },
+  "Boston, US": {
+    "lat": 42.35843,
+    "lon": -71.05977
+  },
+  "Bratislava, SK": {
+    "lat": 48.14816,
+    "lon": 17.10674
+  },
+  "Brussels, BE": {
+    "lat": 50.85045,
+    "lon": 4.34878
+  },
+  "Bucharest, RO": {
+    "lat": 44.43225,
+    "lon": 26.10626
+  },
+  "Cairo, EG": {
+    "lat": 30.06263,
+    "lon": 31.24967
+  },
+  "Cartago, CO": {
+    "lat": 4.74639,
+    "lon": -75.91167
+  },
+  "Charleston, US": {
+    "lat": 38.34982,
+    "lon": -81.63262
+  },
+  "Chicago, US": {
+    "lat": 41.85003,
+    "lon": -87.65005
+  },
+  "Christchurch, NZ": {
+    "lat": -43.53333,
+    "lon": 172.63333
+  },
+  "Col\u00f3n, PA": {
+    "lat": 9.36025,
+    "lon": -79.90019
+  },
+  "Copenhagen, DK": {
+    "lat": 55.67594,
+    "lon": 12.56553
+  },
+  "Curug, ID": {
+    "lat": -6.26583,
+    "lon": 106.55639
+  },
+  "Dallas, US": {
+    "lat": 44.91928,
+    "lon": -123.31705
+  },
+  "Dubai, AE": {
+    "lat": 25.07725,
+    "lon": 55.30927
+  },
+  "Dublin, IE": {
+    "lat": 53.33306,
+    "lon": -6.24889
+  },
+  "D\u00fcsseldorf, DE": {
+    "lat": 51.22172,
+    "lon": 6.77616
+  },
+  "Floreal, MU": {
+    "lat": -20.3110617,
+    "lon": 57.5134651
+  },
+  "Frankfurt, DE": {
+    "lat": 50.11552,
+    "lon": 8.68417
+  },
+  "Helsinki, FI": {
+    "lat": 60.16952,
+    "lon": 24.93545
+  },
+  "Hong Kong, HK": {
+    "lat": 22.27832,
+    "lon": 114.17469
+  },
+  "Houston, US": {
+    "lat": 29.76328,
+    "lon": -95.36327
+  },
+  "Hrdlo\u0159ezy, CZ": {
+    "lat": 50.4513933,
+    "lon": 14.8753972
+  },
+  "Istanbul, TR": {
+    "lat": 41.01384,
+    "lon": 28.94966
+  },
+  "Jakarta, ID": {
+    "lat": -6.21462,
+    "lon": 106.84513
+  },
+  "Jerusalem, IL": {
+    "lat": 31.76904,
+    "lon": 35.21633
+  },
+  "Johannesburg, ZA": {
+    "lat": -26.20227,
+    "lon": 28.04363
+  },
+  "Kampala, UG": {
+    "lat": 0.31628,
+    "lon": 32.58219
+  },
+  "Kista, SE": {
+    "lat": 59.4031236,
+    "lon": 17.9424221
+  },
+  "Kyiv, UA": {
+    "lat": 50.45466,
+    "lon": 30.5238
+  },
+  "Lisbon, PT": {
+    "lat": 38.72509,
+    "lon": -9.1498
+  },
+  "London, GB": {
+    "lat": 51.50853,
+    "lon": -0.12574
+  },
+  "Los Angeles, US": {
+    "lat": 34.05223,
+    "lon": -118.24368
+  },
+  "Luanda, AO": {
+    "lat": -8.83682,
+    "lon": 13.23432
+  },
+  "Madrid, ES": {
+    "lat": 40.4165,
+    "lon": -3.70256
+  },
+  "Marseille, FR": {
+    "lat": 43.29695,
+    "lon": 5.38107
+  },
+  "Melbourne, AU": {
+    "lat": -37.814,
+    "lon": 144.96332
+  },
+  "Miami, US": {
+    "lat": 25.77427,
+    "lon": -80.19366
+  },
+  "Milan, IT": {
+    "lat": 45.46427,
+    "lon": 9.18951
+  },
+  "Montreal, CA": {
+    "lat": 45.50884,
+    "lon": -73.58781
+  },
+  "Montr\u00e9al, CA": {
+    "lat": 45.50884,
+    "lon": -73.58781
+  },
+  "New York City, US": {
+    "lat": 40.71427,
+    "lon": -74.00597
+  },
+  "New York, US": {
+    "lat": 40.71427,
+    "lon": -74.00597
+  },
+  "Norderstedt, DE": {
+    "lat": 53.70177,
+    "lon": 9.99328
+  },
+  "Panam\u00e1, PA": {
+    "lat": 8.9936,
+    "lon": -79.51973
+  },
+  "Paris, FR": {
+    "lat": 48.85341,
+    "lon": 2.3488
+  },
+  "Phoenix, US": {
+    "lat": 33.44838,
+    "lon": -112.07404
+  },
+  "Ponte San Pietro, IT": {
+    "lat": 45.6977541,
+    "lon": 9.5872254
+  },
+  "Port Louis, MU": {
+    "lat": -20.16194,
+    "lon": 57.49889
+  },
+  "Port Moresby, PG": {
+    "lat": -9.47723,
+    "lon": 147.15089
+  },
+  "Portmore, JM": {
+    "lat": 17.97102,
+    "lon": -76.88691
+  },
+  "Porto, PT": {
+    "lat": 41.14961,
+    "lon": -8.61099
+  },
+  "Prague, CZ": {
+    "lat": 50.08804,
+    "lon": 14.42076
+  },
+  "Quer\u00e9taro, MX": {
+    "lat": 20.8052225,
+    "lon": -99.8837376
+  },
+  "Reykjavik, IS": {
+    "lat": 64.13548,
+    "lon": -21.89541
+  },
+  "San Francisco, US": {
+    "lat": 37.77493,
+    "lon": -122.41942
+  },
+  "San Jose, CR": {
+    "lat": 9.9327707,
+    "lon": -84.0796144
+  },
+  "Sandefjord, NO": {
+    "lat": 59.13118,
+    "lon": 10.21665
+  },
+  "Santa Ana, EC": {
+    "lat": -1.1944701,
+    "lon": -80.2631268
+  },
+  "Santiago, CL": {
+    "lat": -33.45694,
+    "lon": -70.64827
+  },
+  "Schaffhausen, CH": {
+    "lat": 47.69732,
+    "lon": 8.63493
+  },
+  "Seattle, US": {
+    "lat": 47.60621,
+    "lon": -122.33207
+  },
+  "Singapore, SG": {
+    "lat": 1.28967,
+    "lon": 103.85007
+  },
+  "Sofia, BG": {
+    "lat": 42.69751,
+    "lon": 23.32415
+  },
+  "Stockholm, SE": {
+    "lat": 59.32938,
+    "lon": 18.06871
+  },
+  "Sydney, AU": {
+    "lat": -33.86785,
+    "lon": 151.20732
+  },
+  "S\u00e3o Paulo, BR": {
+    "lat": -23.5475,
+    "lon": -46.63611
+  },
+  "Tashkent, UZ": {
+    "lat": 41.26465,
+    "lon": 69.21627
+  },
+  "Tel Aviv, IL": {
+    "lat": 32.08088,
+    "lon": 34.78057
+  },
+  "Tokyo, JP": {
+    "lat": 35.6895,
+    "lon": 139.69171
+  },
+  "Toronto, CA": {
+    "lat": 43.70643,
+    "lon": -79.39864
+  },
+  "Tunis, TN": {
+    "lat": 36.81897,
+    "lon": 10.16579
+  },
+  "Vienna, AT": {
+    "lat": 48.20849,
+    "lon": 16.37208
+  },
+  "Vitry-sur-Seine, FR": {
+    "lat": 48.78716,
+    "lon": 2.40332
+  },
+  "Warsaw, PL": {
+    "lat": 52.22977,
+    "lon": 21.01178
+  },
+  "Washington, US": {
+    "lat": 38.8950368,
+    "lon": -77.0365427
+  },
+  "Winterthur, CH": {
+    "lat": 47.50564,
+    "lon": 8.72413
+  },
+  "Wolfsburg, DE": {
+    "lat": 52.42452,
+    "lon": 10.7815
+  },
+  "Zagreb, HR": {
+    "lat": 45.81444,
+    "lon": 15.97798
+  },
+  "Z\u00fcrich, CH": {
+    "lat": 47.36667,
+    "lon": 8.55
+  }
+}
