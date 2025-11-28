@@ -1,0 +1,6 @@
+__pycache__
+location_cache.json
+*.pyc
+.git
+.gitignore
+.dockerignore
