@@ -7,16 +7,43 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
 <img src="screenshots/1.png" alt="iPerf3 Server Map" width="400" />  <img src="screenshots/2.png" alt="iPerf3 Server Map" width="400" />
 
 - **Interactive Map & Testing**: Visualizes iPerf3 servers on a global map using Leaflet.js, allowing you to initiate speed tests directly from the map markers.
-- **Automatic Geocoding**: resolving server locations (City/Country) to coordinates using `geonamescache` (offline) and OpenStreetMap's Nominatim (online fallback)..
+- **Automatic Geocoding**: resolving server locations (City/Country) to coordinates using `geonamescache` (offline) and OpenStreetMap's Nominatim (online fallback).
 - **Integrated Speed Tests**: Run `iperf3` commands directly from the web interface against any server on the map.
 
-## Prerequisites
+## Quick Start
 
-- Docker
-- Docker Compose
+### Option 1: Docker Compose (Recommended)
 
-## Installation & Usage
+Create a `docker-compose.yml` file with the following content:
 
+```yaml
+services:
+  iperf3-map:
+    image: r0gger/iperf3-map
+    container_name: iperf3-map
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+```
+
+Start the container:
+```bash
+docker compose up -d
+```
+
+### Option 2: Docker CLI
+
+Run the container directly using the command line:
+
+```bash
+docker run -d \
+  --name iperf3-map \
+  -p 5000:5000 \
+  --restart unless-stopped \
+  r0gger/iperf3-map
+```
+
+## Build and run 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/R0GGER/iperf3-map.git
