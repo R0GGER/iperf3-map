@@ -26,7 +26,7 @@ This project is sponsored and supported by <a href="https://cloud.hosthatch.com/
 
 2. **Build and run the container:**
    ```bash
-   docker-compose up -d --build
+   docker compose up --build -d
    ```
 
 3. **Access the application:**
