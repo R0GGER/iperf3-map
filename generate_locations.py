@@ -31,7 +31,7 @@ def generate_locations():
         servers = response.json()
     except Exception as e:
         print(f"Failed to fetch server list: {e}")
-        return
+        raise RuntimeError(f"Failed to fetch server list: {e}") from e
 
     print(f"Found {len(servers)} servers.")
 
@@ -95,10 +95,15 @@ def generate_locations():
     
     sorted_results = dict(sorted(results.items()))
     
-    with open('prefilled_locations.json', 'w', encoding='utf-8') as f:
-        json.dump(sorted_results, f, indent=2)
+    try:
+        with open('prefilled_locations.json', 'w', encoding='utf-8') as f:
+            json.dump(sorted_results, f, indent=2)
+    except Exception as e:
+        print(f"Failed to write prefilled_locations.json: {e}")
+        raise RuntimeError(f"Failed to write prefilled_locations.json: {e}") from e
         
     print("Saved to prefilled_locations.json")
+    return True
 
 if __name__ == "__main__":
     sys.stdout = open('gen_log.txt', 'w', encoding='utf-8')

@@ -144,7 +144,22 @@ document.addEventListener('DOMContentLoaded', () => {
             updateBtn.disabled = true;
 
             fetch('/api/update-locations', { method: 'POST' })
-                .then(res => res.json())
+                .then(async res => {
+                    const contentType = res.headers.get('content-type') || '';
+                    if (contentType.includes('application/json')) {
+                        const data = await res.json();
+                        if (!res.ok) {
+                            throw new Error(data.error || `HTTP ${res.status}`);
+                        }
+                        return data;
+                    }
+
+                    const text = await res.text();
+                    if (!res.ok) {
+                        throw new Error(text || `HTTP ${res.status}`);
+                    }
+                    throw new Error(text || 'Unexpected non-JSON response');
+                })
                 .then(data => {
                     if (data.error) {
                         alert("Error: " + data.error);

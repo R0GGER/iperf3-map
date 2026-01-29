@@ -3,4 +3,6 @@ services:
     build: .
     ports:
       - "5000:5000"
+    environment:
+      - FLASK_DEBUG=0
     restart: unless-stopped

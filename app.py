@@ -197,6 +197,11 @@ def update_servers_background():
 update_thread = threading.Thread(target=update_servers_background, daemon=True)
 update_thread.start()
 
+@app.errorhandler(Exception)
+def handle_unexpected_error(error):
+    print(f"Unhandled error: {error}", flush=True)
+    return jsonify({"error": "Internal server error"}), 500
+
 @app.route('/')
 def index():
     return send_from_directory('static', 'index.html')
@@ -209,7 +214,9 @@ def get_servers():
 @app.route('/api/update-locations', methods=['POST'])
 def update_locations_endpoint():
     try:
-        generate_locations()
+        ok = generate_locations()
+        if not ok:
+            raise RuntimeError("Location generation failed")
         
         load_cache()
         
@@ -255,4 +262,5 @@ def run_test():
 
 if __name__ == '__main__':
     load_cache()
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    debug_enabled = os.getenv('FLASK_DEBUG', '0') == '1'
+    app.run(host='0.0.0.0', port=5000, debug=debug_enabled)
